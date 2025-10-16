@@ -23,7 +23,7 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/orders", orderRoutes);
 
 // Health check
-app.get("/", (req, res) => res.send("E-commerce API running well"));
+app.get("/", (req, res) => res.send("E-commerce APIs are running..."));
 
 // Error handler (after routes)
 app.use(errorHandler);
